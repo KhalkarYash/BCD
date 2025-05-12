@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 
 # Load the trained model
-model = joblib.load("c:\\Users\\mjsid\\OneDrive\\Documents\\Python_Programs\\adaboost_model.pkl")
+model = joblib.load("adaboost_model.pkl")
 
 # Streamlit app
 st.title('Breast Cancer Diagnosis')
